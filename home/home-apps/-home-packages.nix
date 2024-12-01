@@ -7,10 +7,10 @@
     mako
     alacritty
     keepassxc
-    gnome.eog
-    gnome.evince
-    gnome.file-roller
-    gnome.nautilus
+    eog
+    evince
+    file-roller
+    nautilus
     element-desktop
     rpi-imager
     tigervnc
@@ -32,6 +32,7 @@
     dmidecode 
     simple-scan
     jellyfin-media-player
+    spotify
 
     # Waybar Media Player
     feh 

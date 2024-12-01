@@ -20,6 +20,7 @@
     ungoogled-chromium
     networkmanagerapplet
     openjdk8-bootstrap
+    jdk8
     distrobox
     wireshark
   ];

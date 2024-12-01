@@ -1,8 +1,9 @@
 { pkgs, ... }: {
   # OpenGL
-  hardware.opengl = {
+  hardware.graphics = {
     enable = true;
-    driSupport = true;
+    #Deprecated 
+    #driSupport = true;
     extraPackages = with pkgs; [
       #intel-media-driver
       #intel-compute-runtime	

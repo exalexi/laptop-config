@@ -2,8 +2,9 @@
 
   programs.waybar.settings.mainBar = {
     temperature = {
-      critical-threshold = 80;
-      format = "{temperatureC}°C {icon}";
+      format = " {temperatureC}°C";
+      critical-threshold =  15;
+	    format-critical = "🔥{temperatureC}°C🔥";
       format-icons = [ "" "" "" ];
     };
   };

@@ -16,7 +16,10 @@
       modules-left = [
         "sway/window"
         "network"
-        "cpu"
+        "user"
+        # "temperature" #//TODO
+
+        #"cpu"
         #"image"
         #"custom/mediaplayer"
       ];
@@ -27,7 +30,7 @@
         #"network"
         #"memory"
         #"cpu"
-        "user"
+        #"user"
         "backlight"
         "battery"
         "pulseaudio"

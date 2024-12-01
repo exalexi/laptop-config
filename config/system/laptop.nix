@@ -11,7 +11,7 @@
 
   # Ignore lid closing
   services.logind = {
-    lidSwitch = "suspend";
+    lidSwitch = "ignore";
     lidSwitchExternalPower = "ignore";
   };
 

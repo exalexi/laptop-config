@@ -37,7 +37,7 @@
       "Mod4+shift+period" = "exec rofimoji -r emoji";
       # Swaylock
       "Mod4+l" = "exec swaylock";
-        # Screenshot
+      # Screenshot
       "Mod4+print"  = ''exec grim -g "$(slurp)" - | wl-copy'';
       # Rofi Screenshot
       "Mod4+shift+print"  = "exec rofi-screenshot";
@@ -96,6 +96,7 @@
       "Mod4+ctrl+shift+p+t" = "exec firefox https://www.youtube.com/watch?v=LdTIl4FS-58";
       "Mod4+ctrl+shift+m+1" = "exec firefox https://www.youtube.com/watch?v=ZGCckws9SJI";
       "Mod4+ctrl+shift+w+3" = "exec firefox https://www.youtube.com/watch?v=19Tx3LDpgRk";
+
     };
   };
 }

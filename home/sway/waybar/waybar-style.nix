@@ -56,7 +56,7 @@ in { pkgs, ... }: {
           
       }
 
-      #tray, #backlight, #pulseaudio, #network, #battery, #user, #cpu{
+      #tray, #backlight, #pulseaudio, #network, #battery, #user, #cpu, #temperature{
           background: ${custom.background};
           border: 2px;
           border-color: ${custom.accent};
