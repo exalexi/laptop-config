@@ -26,7 +26,7 @@ in  {pkgs, lib, ... }: 	{
     settings = {
       env.TERM = "alacritty";
 
-      shell = {
+      terminal.shell = {
         program = "${pkgs.zsh}/bin/zsh";
         args = [ "-l" ];
       };
