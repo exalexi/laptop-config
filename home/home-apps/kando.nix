@@ -1,5 +1,5 @@
 { pkgs, ...}: {
 
-  #TODO is added i think 😼
+  #TODO when they add sway compatability 😺
   
 }
