@@ -33,6 +33,7 @@
     simple-scan
     jellyfin-media-player
     spotify
+    qbittorrent
 
     # Waybar Media Player
     feh 

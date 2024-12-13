@@ -11,6 +11,7 @@
     ./locale.nix
     ./mount.nix
     ./networking.nix
+    ./nm-applet.nix
     ./printing.nix
     ./sway.nix
     ./video.nix

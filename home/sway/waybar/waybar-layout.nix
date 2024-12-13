@@ -17,7 +17,7 @@
         "sway/window"
         "network"
         "user"
-        # "temperature" #//TODO
+        "temperature" #//TODO
 
         #"cpu"
         #"image"
