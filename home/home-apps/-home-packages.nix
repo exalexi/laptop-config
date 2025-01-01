@@ -34,6 +34,7 @@
     jellyfin-media-player
     spotify
     qbittorrent
+    subfinder
 
     # Waybar Media Player
     feh 
