@@ -12,7 +12,7 @@
   };
   
   imports = [
-    <catppuccin/modules/home-manager>
+    #<catppuccin/modules/home-manager>
     ./sway/_sway-imports.nix
     ./home-apps/_home-apps-imports.nix
     ./catppuccin.nix
