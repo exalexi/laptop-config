@@ -8,12 +8,23 @@
       catppuccin.catppuccin-vsc
       jnoortheen.nix-ide
     ];
-    /*
-      userSettings = {
-        "workbench.iconTheme" = "catppuccin-mocha";
-        "workbench.colorTheme" = "Catppuccin Mocha";
-        "files.autoSave" = "onFocusChange";
+    userSettings = {
+
+      "nix.enableLanguageServer" = true;
+      "nix.serverSettings" = {
+        "nil" = {
+          "formatting" = {
+            "command" = [
+              "nixfmt"
+            ];
+          };
+        };
       };
-    */
+      "workbench.colorTheme" = "Catppuccin Mocha";
+      "files.autoSave" = "onFocusChange";
+      "editor.formatOnSave" = "true";
+      "nix.formatterPath" = "nixfmt";
+      "nix.serverPath" = "nil";
+    };
   };
 }

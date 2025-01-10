@@ -24,5 +24,7 @@
     jdk8
     distrobox
     wireshark
+    nil
+    nixfmt-rfc-style
   ];
 }

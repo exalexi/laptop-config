@@ -11,12 +11,16 @@
     };
 
     # Catppuccin
-    catppuccin.url = "github:catppuccin/nix";
+    catppuccin = {
+      url = "github:catppuccin/nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
-    # Spicetify
-    spicetify-nix.url = "github:Gerg-L/spicetify-nix";
-    spicetify-nix.inputs.nixpkgs.follows = "nixpkgs";
-
+    # NixOS Spicetify
+    spicetify-nix = {
+      url = "github:Gerg-L/spicetify-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -29,6 +33,7 @@
       ...
     }@inputs:
     {
+      
       formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
       nixosConfigurations.Lextop = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
@@ -36,7 +41,6 @@
           catppuccin.nixosModules.catppuccin
           home-manager.nixosModules.home-manager
           ./configuration.nix
-
           {
             home-manager.users.lexi = {
               imports = [
@@ -46,6 +50,11 @@
               ];
             };
           }
+          (
+            {config, pkgs, ...}:{
+
+            }
+          )
         ];
       };
     };

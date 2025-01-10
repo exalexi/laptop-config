@@ -10,7 +10,7 @@
     ./git.nix
     ./gtk.nix
     ./rofi.nix
-    ./spicetify.nix
+    #./spicetify.nix
     ./vscode.nix
     ./zsh-new.nix
   ];
