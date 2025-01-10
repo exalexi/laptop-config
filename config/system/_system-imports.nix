@@ -13,6 +13,7 @@
     ./mount.nix
     ./networking.nix
     ./nm-applet.nix
+    ./polkit.nix
     ./printing.nix
     ./sway.nix
     ./video.nix

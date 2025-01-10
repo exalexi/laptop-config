@@ -3,7 +3,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      <home-manager/nixos>
+      #<home-manager/nixos>
       ./config/system-apps/_system-apps-imports.nix
       ./config/system/_system-imports.nix
     ];
@@ -31,9 +31,15 @@
 
   # Enable zsh completion.
   environment.pathsToLink = [ "/share/zsh" ];
-  
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+
+  # Enable flakes
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
 
   system.stateVersion = "24.05"; 
 }
