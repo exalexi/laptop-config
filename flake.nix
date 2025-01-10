@@ -12,6 +12,11 @@
 
     # Catppuccin
     catppuccin.url = "github:catppuccin/nix";
+
+    # Spicetify
+    spicetify-nix.url = "github:Gerg-L/spicetify-nix";
+    spicetify-nix.inputs.nixpkgs.follows = "nixpkgs";
+
   };
 
   outputs =
@@ -20,6 +25,7 @@
       nixpkgs,
       home-manager,
       catppuccin,
+      spicetify-nix,
       ...
     }@inputs:
     {
@@ -36,6 +42,7 @@
               imports = [
                 ./home/default.nix
                 catppuccin.homeManagerModules.catppuccin
+                inputs.spicetify-nix.homeManagerModules.default
               ];
             };
           }

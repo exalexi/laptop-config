@@ -9,8 +9,8 @@
     ./firefox.nix
     ./git.nix
     ./gtk.nix
-    ./kando.nix
     ./rofi.nix
+    ./spicetify.nix
     ./vscode.nix
     ./zsh-new.nix
   ];
