@@ -1,9 +1,10 @@
-{ pkgs, ... }: {
-  
+{ pkgs, ... }:
+{
+
   boot = {
     loader = {
       systemd-boot.enable = true;
-  	  efi.canTouchEfiVariables = true;
+      efi.canTouchEfiVariables = true;
     };
     kernelParams = [ "quiet" ];
     initrd = {

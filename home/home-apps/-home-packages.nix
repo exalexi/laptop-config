@@ -1,5 +1,6 @@
-{ pkgs, ... }: {
-    home.packages = with pkgs; [
+{ pkgs, ... }:
+{
+  home.packages = with pkgs; [
     file
     htop
     eza
@@ -29,7 +30,7 @@
     rofi-power-menu
     rofi-screenshot
     hwinfo
-    dmidecode 
+    dmidecode
     simple-scan
     jellyfin-media-player
     spotify
@@ -37,7 +38,7 @@
     subfinder
 
     # Waybar Media Player
-    feh 
+    feh
     playerctl
 
     #School

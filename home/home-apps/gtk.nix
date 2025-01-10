@@ -1,15 +1,21 @@
-{ config, pkgs, lib, ...}: {
+{
+  config,
+  pkgs,
+  lib,
+  ...
+}:
+{
 
   gtk.catppuccin.enable = true; # TODO find a replacement.
   gtk = {
     enable = true;
-    
+
     font = {
       package = pkgs.noto-fonts;
       name = "Noto Sans Regular";
       size = 10;
     };
-    
+
     iconTheme = {
       name = "Papirus-Dark";
       #package = lib.mkDefault pkgs.catppuccin-papirus-folders;
@@ -18,9 +24,8 @@
         accent = "pink";
       };
     };
-    gtk3.extraConfig."gtk-application-prefer-dark-theme" = true;     
+    gtk3.extraConfig."gtk-application-prefer-dark-theme" = true;
   };
-
 
   systemd.user.sessionVariables = {
     GTK_THEME = config.gtk.theme.name;

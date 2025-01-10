@@ -1,6 +1,6 @@
-{ pkgs, ...}: {
-  imports =
-  [ 
+{ pkgs, ... }:
+{
+  imports = [
     ./backlight.nix
     ./backlight-slider.nix
     ./battery.nix

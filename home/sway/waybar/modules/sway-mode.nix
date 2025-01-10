@@ -1,10 +1,11 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
 
   programs.waybar.settings.mainBar = {
-    
-    "sway/mode" = { 
+
+    "sway/mode" = {
       format = " {}";
-        max-length = 50;
+      max-length = 50;
     };
   };
 }

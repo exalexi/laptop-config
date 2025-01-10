@@ -1,4 +1,5 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   imports = [ ./modules/_module-imports.nix ];
 
   programs.waybar = {
@@ -17,7 +18,7 @@
         "sway/window"
         "network"
         "user"
-        "temperature" #//TODO
+        "temperature" # //TODO
 
         #"cpu"
         #"image"

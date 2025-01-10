@@ -1,4 +1,5 @@
-{pkgs, ...}:{  
+{ pkgs, ... }:
+{
   programs.vscode = {
     enable = true;
     package = pkgs.vscodium-fhs;
@@ -7,10 +8,12 @@
       catppuccin.catppuccin-vsc
       jnoortheen.nix-ide
     ];
-    /*userSettings = {
-      "workbench.iconTheme" = "catppuccin-mocha";
-      "workbench.colorTheme" = "Catppuccin Mocha";
-      "files.autoSave" = "onFocusChange";
-    };*/
+    /*
+      userSettings = {
+        "workbench.iconTheme" = "catppuccin-mocha";
+        "workbench.colorTheme" = "Catppuccin Mocha";
+        "files.autoSave" = "onFocusChange";
+      };
+    */
   };
 }

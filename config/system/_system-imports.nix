@@ -1,6 +1,6 @@
-{ pkgs, ... }: {
-  imports =
-  [
+{ pkgs, ... }:
+{
+  imports = [
     ./audio.nix
     ./bluetooth.nix
     ./boot.nix

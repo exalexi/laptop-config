@@ -1,6 +1,6 @@
-{ pkgs, ... }: 	{
-  wayland.windowManager.sway.extraConfig = 
-    ''
+{ pkgs, ... }:
+{
+  wayland.windowManager.sway.extraConfig = ''
     # Cursor Theme
     #exec_always gsettings set org.gnome.desktop.interface cursor-theme "capitaine-cursors"
 
@@ -16,7 +16,7 @@
     # Wallpaper
 
     output * bg /etc/nixos/home/sway/wallpaper/CryingBlossoms16by9Scaled.png fill
-   
+
     #blur on
     #blur_xray on
     #blur_passes 3
@@ -32,5 +32,5 @@
     #shadow_color #f4b8e4
 
     # Startup Apps, TODO
-    '';
+  '';
 }

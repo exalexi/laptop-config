@@ -1,5 +1,6 @@
-{ pkgs, lib, ... }: 	{
-  
+{ pkgs, lib, ... }:
+{
+
   #TODO
   home-manager.users.lexi = {
     xdg.mimeApps = {

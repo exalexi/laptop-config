@@ -1,12 +1,13 @@
-{ pkgs, ... }: 	{
-  
+{ pkgs, ... }:
+{
+
   catppuccin = {
     enable = true;
-    flavor = "mocha";	
+    flavor = "mocha";
     accent = "pink";
   };
 
-  gtk.catppuccin = {	
+  gtk.catppuccin = {
     enable = true;
     accent = "pink";
     flavor = "mocha";

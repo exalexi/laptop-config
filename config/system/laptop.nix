@@ -1,7 +1,8 @@
-{ pkgs, lib, ... }: {
+{ pkgs, lib, ... }:
+{
   # More Lextop-specific config in /home/sway/extraconfig.nix
-  
-    # Cooling management
+
+  # Cooling management
   services.thermald.enable = lib.mkDefault true;
 
   # tlp defaults to "powersave", which doesn't exist on this laptop

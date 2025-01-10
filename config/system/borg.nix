@@ -1,6 +1,7 @@
-{ pkgs, ... }: {
-  
-   services.borgbackup.jobs.lextop-backup = {
+{ pkgs, ... }:
+{
+
+  services.borgbackup.jobs.lextop-backup = {
     paths = "";
     encryption.mode = "";
     environment.BORG_RSH = "";

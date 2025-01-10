@@ -4,7 +4,9 @@ let
     accent = "'#f5c2e7'";
     text = "'#cdd6f4'";
   };
-in  { pkgs, lib, ... }: {
+in
+{ pkgs, lib, ... }:
+{
   programs.cava = {
     enable = true;
     package = pkgs.cava;

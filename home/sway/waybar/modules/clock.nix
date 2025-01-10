@@ -1,7 +1,8 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
 
   programs.waybar.settings.mainBar = {
-    
+
     clock = {
       format = "   {:%a %d %b, %H:%M }";
       tooltip = "true";
@@ -12,6 +13,6 @@
       #tooltip = "true";
       #tooltip-format = "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>";
       #format-alt = " {:%d/%m}";
-    };      
+    };
   };
 }

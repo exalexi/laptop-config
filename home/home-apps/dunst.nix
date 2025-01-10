@@ -3,7 +3,9 @@ let
     main = "#1e1e2e";
     accent = "#f5c2e7";
   };
-in { pkgs, lib, ... }: {
+in
+{ pkgs, lib, ... }:
+{
 
   services.dunst = {
     enable = true;
@@ -68,12 +70,12 @@ in { pkgs, lib, ... }: {
         ignore_dbusclose = true;
         override_pause_level = 0;
         frame_color = lib.mkForce custom.accent;
-        
+
       };
       urgency_normal = {
         background = lib.mkForce custom.main;
         foreground = lib.mkForce custom.accent;
-        frame_color = lib.mkForce custom.accent;       
+        frame_color = lib.mkForce custom.accent;
         timeout = 10;
       };
       urgency_low = {
@@ -93,4 +95,3 @@ in { pkgs, lib, ... }: {
     # f5c2e7
   };
 }
-

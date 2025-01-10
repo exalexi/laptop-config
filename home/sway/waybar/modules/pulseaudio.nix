@@ -1,14 +1,19 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
 
   programs.waybar.settings.mainBar = {
-    
+
     pulseaudio = {
       format = "{volume}% {icon}   {format_source}";
       format-bluetooth = "{volume}% {icon} {format_source}";
       format-bluetooth-muted = " {icon} {format_source}";
       format-icons = {
         car = "";
-        default = [ "" "" "" ];
+        default = [
+          ""
+          ""
+          ""
+        ];
         handsfree = "";
         headphones = "";
         headset = "";

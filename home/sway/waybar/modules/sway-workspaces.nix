@@ -1,7 +1,8 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
 
   programs.waybar.settings.mainBar = {
-  
+
     "sway/workspaces" = {
       format = "{name}";
       on-click = "activate";

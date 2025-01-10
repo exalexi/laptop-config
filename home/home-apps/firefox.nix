@@ -1,5 +1,6 @@
-{ pkgs, ... }: 	{
-  
+{ pkgs, ... }:
+{
+
   # Thanks for like 80% of this Leela 😼
   programs.firefox = {
     enable = true;
@@ -15,7 +16,7 @@
         Value = true;
         Locked = false;
         Cryptomining = true;
-        Fingerprinting = true;	
+        Fingerprinting = true;
       };
       FirefoxSuggest = false;
       NetworkPrediction = true;
@@ -24,7 +25,7 @@
       PasswordManagerEnabled = true;
       StartDownloadsInTempDirectory = true;
     };
-    
+
     profiles.default = {
       id = 0;
       name = "Default";
@@ -62,7 +63,7 @@
         "extensions.pocket.api" = "";
         "extensions.pocket.oAuthConsumerKey" = "";
         "extensions.pocket.showHome" = false;
-        "extensions.pocket.site" = "";    
+        "extensions.pocket.site" = "";
       };
       search = {
         default = "DuckDuckGo";
@@ -113,24 +114,24 @@
           };
 
           "NixOS Wiki" = {
-            urls = [{ template = "https://nixos.wiki/index.php?search={searchTerms}"; }];
+            urls = [ { template = "https://nixos.wiki/index.php?search={searchTerms}"; } ];
             icon = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
             definedAliases = [ "nw" ];
           };
 
           "Noogle" = {
-            urls = [{ template = "https://noogle.dev/q?term={searchTerms}"; }];
+            urls = [ { template = "https://noogle.dev/q?term={searchTerms}"; } ];
             icon = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
             definedAliases = [ "ng" ];
           };
 
           "Home-Manager Options" = {
-            urls = [{ template = "https://home-manager-options.extranix.com/?query={searchTerms}"; }];
+            urls = [ { template = "https://home-manager-options.extranix.com/?query={searchTerms}"; } ];
             icon = "${pkgs.nixos-icons}/share/icons/hicolor/scalable/apps/nix-snowflake.svg";
             definedAliases = [ "hm" ];
           };
-        };	
+        };
       };
-    };      
+    };
   };
 }
