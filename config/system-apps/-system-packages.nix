@@ -1,30 +1,30 @@
 { pkgs, ... }:
 {
   environment.systemPackages = with pkgs; [
-    greetd.tuigreet
-    lutris-free
-    neofetch
-    wineWowPackages.waylandFull
-    micro
-    parted
-    git
-    wget
-    lshw
-    pulseaudio
-    usbutils
-    udiskie
-    udisks
-    polkit
-    ntfs3g
-    pavucontrol
-    libnotify
-    ungoogled-chromium
-    networkmanagerapplet
-    openjdk8-bootstrap
-    jdk8
     distrobox
-    wireshark
+    git
+    greetd.tuigreet
+    jdk8
+    libnotify
+    lshw
+    lutris-free
+    micro
+    neofetch
+    networkmanagerapplet
     nil
     nixfmt-rfc-style
+    ntfs3g
+    openjdk8-bootstrap
+    parted
+    pavucontrol
+    polkit
+    pulseaudio
+    udiskie
+    udisks
+    ungoogled-chromium
+    usbutils
+    wget
+    wineWowPackages.waylandFull
+    wireshark
   ];
 }
