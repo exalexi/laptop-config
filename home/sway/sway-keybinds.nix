@@ -1,6 +1,6 @@
-{ pkgs, ... }:
+{ ... }:
 {
-  wayland.windowManager.sway.config = rec {
+  wayland.windowManager.sway.config = {
 
     modes.resize = {
       Left = "resize shrink width  2ppt";

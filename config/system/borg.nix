@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ ... }:
 {
 
   services.borgbackup.jobs.lextop-backup = {

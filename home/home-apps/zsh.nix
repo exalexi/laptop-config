@@ -1,10 +1,3 @@
-let
-  custom = {
-    background = "#1e1e2e";
-    accent = "#f5c2e7";
-    text = "#cdd6f4";
-  };
-in
 { pkgs, config, ... }:
 {
   programs.zsh = {

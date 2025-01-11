@@ -1,4 +1,4 @@
-{ pkgs, lib, ... }:
+{ lib, ... }:
 {
   # More Lextop-specific config in /home/sway/extraconfig.nix
 

@@ -7,7 +7,7 @@ let
     transparency = "rgba(0,0,0,0)";
   };
 in
-{ pkgs, ... }:
+{ ... }:
 {
   programs.waybar.style = ''
     * {

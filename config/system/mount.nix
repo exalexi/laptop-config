@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ ... }:
 {
 
   # USB Stick mounting

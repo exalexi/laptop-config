@@ -5,7 +5,7 @@ let
     background = "1e1e2e";
   };
 in
-{ pkgs, ... }:
+{ ... }:
 {
 
   wayland.windowManager.sway = {
@@ -14,7 +14,7 @@ in
     systemd.enable = true;
     package = null;
     wrapperFeatures.gtk = true;
-    config = rec {
+    config = {
       modifier = "Mod4";
 
       defaultWorkspace = "10";

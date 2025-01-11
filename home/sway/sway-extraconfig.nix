@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ ... }:
 {
   wayland.windowManager.sway.extraConfig = ''
     # Cursor Theme

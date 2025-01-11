@@ -10,6 +10,7 @@
 
     enabledExtensions = with pkgs.spicePkgs.extensions; [
       shuffle
+      adblock
     ];
   };
 }
