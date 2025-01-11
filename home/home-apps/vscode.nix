@@ -25,6 +25,7 @@
       "editor.formatOnSave" = "true";
       "nix.formatterPath" = "nixfmt";
       "nix.serverPath" = "nil";
+      "git.enableSmartCommit" = "true";
     };
   };
 }
