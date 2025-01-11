@@ -57,12 +57,8 @@
               nixpkgs.overlays = [
                 (final: prev: {
                   spicePkgs = inputs.spicetify-nix.legacyPackages.${pkgs.system};
-                  # catppuccintheme = inputs.spicetify-nix.legacyPackages.${pkgs.system}.themes.catppuccin;
-                  # spicetifyshuffle = inputs.spicetify-nix.legacyPackages.${pkgs.system}.extensions.shuffle;
-
                 })
               ];
-
             }
           )
         ];
