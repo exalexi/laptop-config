@@ -33,7 +33,7 @@
     dmidecode
     simple-scan
     jellyfin-media-player
-    spotify
+    #spotify
     qbittorrent
     subfinder
 

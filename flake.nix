@@ -33,7 +33,7 @@
       ...
     }@inputs:
     {
-      
+
       formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
       nixosConfigurations.Lextop = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
@@ -51,7 +51,17 @@
             };
           }
           (
-            {config, pkgs, ...}:{
+            { config, pkgs, ... }:
+            {
+
+              nixpkgs.overlays = [
+                (final: prev: {
+                  spicePkgs = inputs.spicetify-nix.legacyPackages.${pkgs.system};
+                  # catppuccintheme = inputs.spicetify-nix.legacyPackages.${pkgs.system}.themes.catppuccin;
+                  # spicetifyshuffle = inputs.spicetify-nix.legacyPackages.${pkgs.system}.extensions.shuffle;
+
+                })
+              ];
 
             }
           )
