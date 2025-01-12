@@ -53,7 +53,6 @@
           (
             { config, pkgs, ... }:
             {
-
               nixpkgs.overlays = [
                 (final: prev: {
                   spicePkgs = inputs.spicetify-nix.legacyPackages.${pkgs.system};

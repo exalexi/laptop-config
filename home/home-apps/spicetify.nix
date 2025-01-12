@@ -9,8 +9,11 @@
     colorScheme = "mocha";
 
     enabledExtensions = with pkgs.spicePkgs.extensions; [
-      shuffle
       adblock
+      beautifulLyrics
+      betterGenres
+      shuffle
+      songStats
     ];
   };
 }

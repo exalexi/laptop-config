@@ -15,6 +15,7 @@
     ./nm-applet.nix
     ./polkit.nix
     ./printing.nix
+    ./ssh.nix
     ./sway.nix
     ./video.nix
     ./vms.nix
