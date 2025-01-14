@@ -2,7 +2,7 @@
 {
 
   #TODO
-  home-manager.users.lexi = {
+  home-manager.users.lex = {
     xdg.mimeApps = {
       enable = true;
       defaultApplications = {

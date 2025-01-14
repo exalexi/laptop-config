@@ -20,10 +20,10 @@
     };
   };
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.lexi = {
+  users.users.lex = {
     isNormalUser = true;
     useDefaultShell = true;
-    description = "Lexi";
+    description = "Lex";
     extraGroups = [
       "networkmanager"
       "wheel"
@@ -39,7 +39,7 @@
   home-manager = {
     useUserPackages = true;
     useGlobalPkgs = true;
-    users.lexi = import ./home;
+    users.lex = import ./home;
   };
 
   # Enable zsh completion.

@@ -42,7 +42,7 @@
           home-manager.nixosModules.home-manager
           ./configuration.nix
           {
-            home-manager.users.lexi = {
+            home-manager.users.lex = {
               imports = [
                 ./home/default.nix
                 catppuccin.homeManagerModules.catppuccin
