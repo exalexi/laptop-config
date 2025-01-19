@@ -99,6 +99,9 @@ in
             app_id = "org.gnome.Nautilus";
           }
           {
+            app_id = "org.gnome.FileRoller";
+          }
+          {
             app_id = "Alacritty";
           }
           {

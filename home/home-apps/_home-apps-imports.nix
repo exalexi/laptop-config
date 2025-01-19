@@ -12,6 +12,6 @@
     ./rofi.nix
     ./spicetify.nix
     ./vscode.nix
-    ./zsh-new.nix
+    ./zsh.nix
   ];
 }
