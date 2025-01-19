@@ -27,7 +27,7 @@ in
     #};
 
     shellAliases = {
-      update = "sudo nixos-rebuild switch";
+      update = "sudo rm /home/lex/.config/VSCodium/User/settings.json && sudo nixos-rebuild switch";
       ".." = "cd ..";
       "😼" = ''echo "nyaaaa :3"'';
       "😿" = ''echo "meowww 3:"'';

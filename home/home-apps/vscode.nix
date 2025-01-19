@@ -7,6 +7,7 @@
       catppuccin.catppuccin-vsc-icons
       catppuccin.catppuccin-vsc
       jnoortheen.nix-ide
+      #redhat.java
     ];
     userSettings = {
 
@@ -26,6 +27,7 @@
       "nix.formatterPath" = "nixfmt";
       "nix.serverPath" = "nil";
       "git.enableSmartCommit" = "true";
+      "window.menuBarVisibility" = "toggle";
     };
   };
 }
