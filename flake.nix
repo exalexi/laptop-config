@@ -21,6 +21,15 @@
       url = "github:Gerg-L/spicetify-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    # agenix
+    agenix = {
+      url = "github:ryantm/agenix";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.home-manager.follows = "home-manager";
+      inputs.darwin.follows = "";
+    };
+
   };
 
   outputs =
@@ -30,6 +39,7 @@
       home-manager,
       catppuccin,
       spicetify-nix,
+      agenix,
       ...
     }@inputs:
     {
@@ -40,6 +50,7 @@
         modules = [
           catppuccin.nixosModules.catppuccin
           home-manager.nixosModules.home-manager
+          agenix.nixosModules.default
           ./configuration.nix
           {
             home-manager.users.lex = {

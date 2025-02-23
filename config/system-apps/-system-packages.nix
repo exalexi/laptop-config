@@ -26,5 +26,12 @@
     wget
     wineWowPackages.waylandFull
     wireshark
+    angryipscanner
+    bzip2
+    system-config-printer
+    magic-wormhole-rs
+    wireguard-tools
+    sshfs
   ];
 }
+#

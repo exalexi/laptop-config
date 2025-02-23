@@ -1,6 +1,5 @@
 { ... }:
 {
-
   services.greetd = {
     enable = true;
     restart = false;

@@ -41,5 +41,6 @@
     wl-clipboard
     wtype
     yt-dlp
+    drawio
   ];
 }

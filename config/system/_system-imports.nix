@@ -17,8 +17,10 @@
     ./printing.nix
     ./ssh.nix
     ./sway.nix
+    ./tailscale.nix
     ./video.nix
     ./vms.nix
     ./vnstat.nix
+    #./wireguard.nix
   ];
 }
