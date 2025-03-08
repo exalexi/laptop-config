@@ -28,6 +28,7 @@ in
 
     shellAliases = {
       update = "sudo rm /home/lex/.config/VSCodium/User/settings.json && sudo nixos-rebuild switch";
+      updateboot = "sudo rm /home/lex/.config/VSCodium/User/settings.json && sudo nixos-rebuild boot";
       ".." = "cd ..";
       "😼" = ''echo "nyaaaa :3"'';
       "😿" = ''echo "meowww 3:"'';
