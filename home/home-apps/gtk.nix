@@ -4,8 +4,6 @@
   ...
 }:
 {
-
-  gtk.catppuccin.enable = true; # TODO find a replacement.
   gtk = {
     enable = true;
 
