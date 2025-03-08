@@ -4,6 +4,7 @@
     distrobox
     git
     greetd.tuigreet
+    greetd.gtkgreet
     jdk8
     libnotify
     lshw

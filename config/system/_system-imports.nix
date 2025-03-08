@@ -7,7 +7,8 @@
     #./borg.nix
     ./docker.nix
     ./fonts.nix
-    ./greetd.nix
+    #./greetd.nix
+    ./gtkgreet.nix
     ./laptop.nix
     ./locale.nix
     ./mount.nix
