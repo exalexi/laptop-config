@@ -9,7 +9,6 @@
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
-    #<home-manager/nixos>
     ./config/system-apps/_system-apps-imports.nix
     ./config/system/_system-imports.nix
   ];
@@ -32,7 +31,6 @@
       "libvirtd"
       "wireshark"
     ];
-    packages = with pkgs; [ ];
   };
 
   # Home-Manager

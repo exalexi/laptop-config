@@ -1,20 +1,9 @@
-{ pkgs, ... }:
+{ ... }:
 {
   # OpenGL
-  hardware.graphics = {
-    enable = true;
-    #Deprecated
-    #driSupport = true;
-    extraPackages = with pkgs; [
-      #intel-media-driver
-      #intel-compute-runtime
-    ];
-  };
   hardware = {
+    graphics.enable = true;
     enableRedistributableFirmware = true;
-    cpu = {
-      intel.updateMicrocode = true;
-      amd.updateMicrocode = true;
-    };
+    cpu.intel.updateMicrocode = true;
   };
 }
