@@ -2,10 +2,10 @@
 {
   programs.nm-applet.enable = true;
 
-  #systemd.services.run-nm-applet = {
-  #  enable = true;
-  #  serviceConfig = {
-  #    ExecStart = "";
-  #  };
-  #};
+  systemd.user.services.nm-applet-on-boot = {
+    description = "Run nm-applet on boot";
+    serviceConfig.PassEnvironment = "DISPLAY";
+    script = "exec nm-applet";
+    wantedBy = [ "multi-user.target" ]; # starts after login
+  };
 }
