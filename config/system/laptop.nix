@@ -1,6 +1,5 @@
 { lib, ... }:
 {
-  # More Lextop-specific config in /home/sway/extraconfig.nix
 
   # Cooling management
   services.thermald.enable = lib.mkDefault true;

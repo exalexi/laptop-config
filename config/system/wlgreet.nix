@@ -11,6 +11,7 @@ let
   '';
 in
 {
+  # Swap with Regreet maybe, looks good
   services.greetd = {
     enable = true;
     settings = {
@@ -19,11 +20,4 @@ in
       };
     };
   };
-
-  environment.etc."greetd/environments".text = ''
-    sway
-    fish
-    bash
-    startxfce4
-  '';
 }
