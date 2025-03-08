@@ -5,6 +5,7 @@
     git
     greetd.tuigreet
     greetd.gtkgreet
+    greetd.wlgreet
     jdk8
     libnotify
     lshw

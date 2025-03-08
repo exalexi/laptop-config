@@ -8,7 +8,6 @@
     ./docker.nix
     ./fonts.nix
     #./greetd.nix
-    ./gtkgreet.nix
     ./laptop.nix
     ./locale.nix
     ./mount.nix
@@ -23,5 +22,6 @@
     ./vms.nix
     ./vnstat.nix
     #./wireguard.nix
+    ./wlgreet.nix
   ];
 }
