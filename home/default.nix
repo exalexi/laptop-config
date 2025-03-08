@@ -15,8 +15,6 @@
     #<catppuccin/modules/home-manager>
     ./sway/_sway-imports.nix
     ./home-apps/_home-apps-imports.nix
-    ./catppuccin.nix
-    ./cursor.nix
   ];
 
   # The state verson is required and should stay at the version you originally installed.

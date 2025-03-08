@@ -3,7 +3,9 @@
   imports = [
     ./-home-packages.nix
     ./alacritty.nix
+    ./catppuccin.nix
     ./cava.nix
+    ./cursor.nix
     ./dconf.nix
     ./dunst.nix
     ./firefox.nix
