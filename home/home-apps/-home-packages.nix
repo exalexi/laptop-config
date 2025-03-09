@@ -4,10 +4,6 @@
     alacritty
     dmidecode
     element-desktop
-    eog
-    evince
-    eza
-    feh
     file
     file-roller
     fish

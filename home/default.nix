@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ ... }:
 {
   # Everything inside here is managed by Home Manager
   programs.home-manager = {
@@ -12,7 +12,6 @@
   };
 
   imports = [
-    #<catppuccin/modules/home-manager>
     ./sway/_sway-imports.nix
     ./home-apps/_home-apps-imports.nix
   ];

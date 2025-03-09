@@ -6,7 +6,6 @@
     ./battery.nix
     ./clock.nix
     ./cpu.nix
-    ./image.nix
     ./mediaplayer.nix
     ./memory.nix
     ./network.nix
