@@ -31,7 +31,11 @@ in
 
       terminal = "alacritty";
       menu = "rofi -show drun";
-      bars = [ ];
+      bars = [
+        {
+          command = "waybar";
+        }
+      ];
       window = {
         hideEdgeBorders = "none";
         border = 2;

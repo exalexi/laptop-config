@@ -10,12 +10,17 @@ let
   '';
 in
 {
-  # Swap with Regreet maybe, looks good
   services.greetd = {
     enable = true;
+    restart = false;
     settings = {
       default_session = {
-        command = "${pkgs.sway}/bin/sway --config ${swayConfig}";
+        #command = "${pkgs.sway}/bin/sway --config ${swayConfig}";
+        command = "tuigreet --cmd 'dbus-run-session sway' -t -r --asterisks -g 'Hiya'";
+      };
+      initial_session = {
+        user = "lex";
+        command = "dbus-run-session sway";
       };
     };
   };
