@@ -17,7 +17,7 @@ in
     config = {
       modifier = "Mod4";
 
-      defaultWorkspace = "10";
+      defaultWorkspace = "1";
 
       focus.followMouse = "always";
 
