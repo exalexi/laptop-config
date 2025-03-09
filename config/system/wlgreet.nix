@@ -1,7 +1,6 @@
 { pkgs, ... }:
 let
   swayConfig = pkgs.writeText "greetd-sway-config" ''
-    # `-l` activates layer-shell mode. Notice that `swaymsg exit` will run after gtkgreet.
     exec "${pkgs.greetd.wlgreet}/bin/wlgreet --command sway; swaymsg exit"
     bindsym Mod4+shift+e exec swaynag \
       -t warning \

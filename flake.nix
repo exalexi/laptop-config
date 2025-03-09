@@ -55,11 +55,17 @@
       nixosConfigurations.Lextop = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
-          lix-module.nixosModules.default
-          catppuccin.nixosModules.catppuccin
-          home-manager.nixosModules.home-manager
-          agenix.nixosModules.default
+
           ./configuration.nix
+
+          lix-module.nixosModules.default
+
+          catppuccin.nixosModules.catppuccin
+
+          home-manager.nixosModules.home-manager
+
+          agenix.nixosModules.default
+
           {
             home-manager.users.lex = {
               imports = [
@@ -69,6 +75,7 @@
               ];
             };
           }
+
           (
             { config, pkgs, ... }:
             {
@@ -79,6 +86,7 @@
               ];
             }
           )
+
         ];
       };
     };
