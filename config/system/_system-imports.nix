@@ -6,6 +6,7 @@
     ./boot.nix
     ./docker.nix
     ./fonts.nix
+    ./greetd.nix
     ./laptop.nix
     ./locale.nix
     ./mount.nix
@@ -19,6 +20,5 @@
     ./video.nix
     ./vms.nix
     ./vnstat.nix
-    ./wlgreet.nix
   ];
 }
