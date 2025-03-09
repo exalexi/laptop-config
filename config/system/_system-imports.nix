@@ -4,7 +4,6 @@
     ./audio.nix
     ./bluetooth.nix
     ./boot.nix
-    #./borg.nix
     ./docker.nix
     ./fonts.nix
     ./laptop.nix
