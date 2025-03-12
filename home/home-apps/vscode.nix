@@ -7,7 +7,8 @@
       catppuccin.catppuccin-vsc-icons
       catppuccin.catppuccin-vsc
       jnoortheen.nix-ide
-      #redhat.java
+      redhat.java
+      ms-vscode-remote.remote-ssh
     ];
     userSettings = {
 
@@ -23,7 +24,7 @@
       };
       "workbench.colorTheme" = "Catppuccin Mocha";
       "files.autoSave" = "onFocusChange";
-      "editor.formatOnSave" = "true";
+      "editor.formatOnSave" = true;
       "nix.formatterPath" = "nixfmt";
       "nix.serverPath" = "nil";
       "git.enableSmartCommit" = "true";
