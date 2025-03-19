@@ -98,6 +98,12 @@
       "Mod4+ctrl+shift+m+1" = "exec firefox https://www.youtube.com/watch?v=ZGCckws9SJI";
       "Mod4+ctrl+shift+w+3" = "exec firefox https://www.youtube.com/watch?v=19Tx3LDpgRk";
 
+      # Flip screen
+      "Mod4+ctrl+up" = "exec swaymsg -- output - transform 0";
+      "Mod4+ctrl+left" = "exec swaymsg -- output - transform 90";
+      "Mod4+ctrl+down" = "exec swaymsg -- output - transform 180";
+      "Mod4+ctrl+right" = "exec swaymsg -- output - transform 270";
+
     };
   };
 }
