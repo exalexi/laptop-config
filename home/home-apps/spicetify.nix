@@ -10,7 +10,6 @@
 
     enabledExtensions = with pkgs.spicePkgs.extensions; [
       adblock
-      beautifulLyrics
       betterGenres
       shuffle
       songStats
