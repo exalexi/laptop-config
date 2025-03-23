@@ -7,6 +7,7 @@
     ./docker.nix
     ./fonts.nix
     ./greetd.nix
+    ./keyring.nix
     ./laptop.nix
     ./locale.nix
     ./mount.nix
