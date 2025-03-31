@@ -2,7 +2,7 @@
 {
   programs.vscode = {
     enable = true;
-    package = pkgs.vscodium-fhs;
+    #package = pkgs.vscodium-fhs;
     extensions = with pkgs.vscode-extensions; [
       catppuccin.catppuccin-vsc-icons
       catppuccin.catppuccin-vsc
