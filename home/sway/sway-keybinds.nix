@@ -19,7 +19,7 @@
 
       # Open Useful Stuff
       "Mod4+ctrl+shift+n" = "exec nautilus";
-      "Mod4+ctrl+shift+v" = "exec codium";
+      "Mod4+ctrl+shift+v" = "exec code";
       "Mod4+ctrl+shift+f" = "exec firefox";
       "Mod4+ctrl+shift+s" = "exec steam";
       "Mod4+ctrl+shift+d" = "exec vesktop";
