@@ -6,7 +6,6 @@
     greetd.tuigreet
     greetd.gtkgreet
     greetd.wlgreet
-    jdk8
     libnotify
     lshw
     lutris-free
@@ -16,7 +15,6 @@
     nil
     nixfmt-rfc-style
     ntfs3g
-    openjdk8-bootstrap
     parted
     pavucontrol
     polkit
@@ -34,6 +32,7 @@
     magic-wormhole-rs
     wireguard-tools
     sshfs
+    rclone
   ];
 }
 #
