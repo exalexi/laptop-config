@@ -32,7 +32,6 @@
     magic-wormhole-rs
     wireguard-tools
     sshfs
-    rclone
   ];
 }
 #
