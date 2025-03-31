@@ -36,7 +36,6 @@
       "dmask=0022"
     ];
   };
-  #9623b000-b780-41ed-b4cb-512e91bb36ff
 
   fileSystems."/home/lex/storage" = {
     device = "/dev/disk/by-uuid/9623b000-b780-41ed-b4cb-512e91bb36ff";
