@@ -115,6 +115,9 @@ in
           {
             app_id = "steamwebhelper";
           }
+          {
+            app_id = "org.qbittorrent.qBittorrent";
+          }
         ];
       };
     };
