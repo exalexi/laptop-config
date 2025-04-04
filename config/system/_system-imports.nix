@@ -21,5 +21,6 @@
     ./video.nix
     ./vms.nix
     ./vnstat.nix
+    ./vpn.nix
   ];
 }

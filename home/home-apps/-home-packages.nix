@@ -20,8 +20,6 @@
     nautilus
     nixfmt-rfc-style
     playerctl
-    protonvpn-cli_2
-    protonvpn-gui
     qbittorrent
     rofi-power-menu
     rofi-screenshot
