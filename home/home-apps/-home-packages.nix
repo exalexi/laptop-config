@@ -3,6 +3,7 @@
   home.packages = with pkgs; [
     alacritty
     dmidecode
+    drawio
     element-desktop
     file
     file-roller
@@ -35,7 +36,6 @@
     wl-clipboard
     wtype
     yt-dlp
-    drawio
 
     # wget https://www.netacad.com/resources/lab-downloads?courseLang=en-US -O /home/lex/Documents/Cisco/CiscoPacketTracer822_amd64_signed.deb
     # sudo nix-store --add-fixed sha256 /home/lex/Documents/Cisco/CiscoPacketTracer822_amd64_signed.deb

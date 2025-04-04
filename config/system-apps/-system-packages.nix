@@ -1,14 +1,17 @@
 { pkgs, ... }:
 {
   environment.systemPackages = with pkgs; [
+    angryipscanner
+    bzip2
     distrobox
     git
-    greetd.tuigreet
     greetd.gtkgreet
+    greetd.tuigreet
     greetd.wlgreet
     libnotify
     lshw
     lutris-free
+    magic-wormhole-rs
     micro
     neofetch
     networkmanagerapplet
@@ -19,6 +22,8 @@
     pavucontrol
     polkit
     pulseaudio
+    sshfs
+    system-config-printer
     udiskie
     udisks
     ungoogled-chromium
@@ -26,12 +31,7 @@
     wget
     wineWowPackages.waylandFull
     wireshark
-    angryipscanner
-    bzip2
-    system-config-printer
-    magic-wormhole-rs
     wireguard-tools
-    sshfs
   ];
 }
 #
