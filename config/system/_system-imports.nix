@@ -15,6 +15,7 @@
     ./nm-applet.nix
     ./polkit.nix
     ./printing.nix
+    ./retroarch.nix
     ./ssh.nix
     ./sway.nix
     ./tailscale.nix
