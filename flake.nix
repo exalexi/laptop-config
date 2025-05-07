@@ -36,6 +36,11 @@
       inputs.darwin.follows = "";
     };
 
+    niri = {
+      url = "github:sodiboo/niri-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
   };
 
   outputs =
@@ -47,6 +52,7 @@
       catppuccin,
       spicetify-nix,
       agenix,
+      niri,
       ...
     }@inputs:
     {
@@ -72,6 +78,7 @@
                 ./home/default.nix
                 catppuccin.homeManagerModules.catppuccin
                 inputs.spicetify-nix.homeManagerModules.default
+                niri.homeModules.niri
               ];
             };
           }
