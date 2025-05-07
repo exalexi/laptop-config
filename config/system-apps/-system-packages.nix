@@ -18,6 +18,7 @@
     nil
     nixfmt-rfc-style
     ntfs3g
+    parsec-bin
     parted
     pavucontrol
     polkit
