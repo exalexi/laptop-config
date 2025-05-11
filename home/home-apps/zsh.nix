@@ -30,7 +30,7 @@
     shellAliases = {
       update = "sudo nixos-rebuild switch";
       updateboot = "sudo nixos-rebuild boot";
-      vsconfig = "sudo rm /home/lex/.config/VSCodium/User/settings.json";
+      vsconfig = "sudo rm /home/lex/.config/Code/User/settings.json";
       ".." = "cd ..";
       "😼" = ''echo "nyaaaa :3"'';
       "😿" = ''echo "meowww 3:"'';
