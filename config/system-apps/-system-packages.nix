@@ -2,12 +2,14 @@
 {
   environment.systemPackages = with pkgs; [
     angryipscanner
+    arandr
     bzip2
     distrobox
     git
     greetd.gtkgreet
     greetd.tuigreet
     greetd.wlgreet
+    jdk21
     libnotify
     lshw
     lutris-free
@@ -25,6 +27,7 @@
     pulseaudio
     sshfs
     system-config-printer
+    typst
     udiskie
     udisks
     ungoogled-chromium
