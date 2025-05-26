@@ -14,6 +14,7 @@
     lshw
     lutris-free
     magic-wormhole-rs
+    mako
     micro
     neofetch
     networkmanagerapplet

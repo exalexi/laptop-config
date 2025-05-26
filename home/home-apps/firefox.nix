@@ -66,11 +66,11 @@
         "extensions.pocket.site" = "";
       };
       search = {
-        default = "DuckDuckGo";
-        privateDefault = "DuckDuckGo";
+        default = "ddg";
+        privateDefault = "ddg";
         force = true;
         engines = {
-          "Google".metaData.hidden = true;
+          "google".metaData.hidden = true;
           "Amazon".metaData.hidden = true;
 
           "Nix Packages" = {

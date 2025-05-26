@@ -9,5 +9,8 @@
       accent = "pink";
       flavor = "mocha";
     };
+
+    # 25.05 broke it
+    mako.enable = false;
   };
 }

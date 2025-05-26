@@ -4,7 +4,7 @@
     enable = true;
     #package = pkgs.vscodium-fhs;
     package = pkgs.vscode-fhs;
-    extensions = with pkgs.vscode-extensions; [
+    profiles.default.extensions = with pkgs.vscode-extensions; [
       catppuccin.catppuccin-vsc-icons
       catppuccin.catppuccin-vsc
       jnoortheen.nix-ide
@@ -14,9 +14,10 @@
       ms-vscode-remote.remote-ssh
       myriad-dreamin.tinymist
       tomoki1207.pdf
-      raspberry-pi.raspberry-pi-pico
+      # Fuck you 😾
+      #raspberry-pi.raspberry-pi-pico
     ];
-    userSettings = {
+    profiles.default.userSettings = {
       "[typst]" = {
         "editor.wordSeperators" = "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?";
       };
