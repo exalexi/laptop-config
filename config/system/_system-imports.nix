@@ -7,6 +7,7 @@
     ./docker.nix
     ./fonts.nix
     ./greetd.nix
+    ./keyboard.nix
     ./keyring.nix
     ./laptop.nix
     ./locale.nix
@@ -23,5 +24,6 @@
     ./vms.nix
     ./vnstat.nix
     ./vpn.nix
+    ./wireguard.nix
   ];
 }
