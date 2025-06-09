@@ -2,6 +2,7 @@
 {
   environment.systemPackages = with pkgs; [
     angryipscanner
+    ani-cli
     arandr
     bzip2
     distrobox
