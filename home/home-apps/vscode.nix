@@ -14,6 +14,15 @@
       ms-vscode-remote.remote-ssh
       myriad-dreamin.tinymist
       tomoki1207.pdf
+      ms-python.python
+
+      # QMK
+      editorconfig.editorconfig
+
+      xaver.clang-format
+      llvm-vs-code-extensions.vscode-clangd
+      bierner.github-markdown-preview
+
       # Fuck you 😾
       #raspberry-pi.raspberry-pi-pico
     ];
@@ -40,7 +49,8 @@
       "redhat.telemetry.enabled" = false;
       "window.menuBarVisibility" = "toggle";
       "workbench.colorTheme" = "Catppuccin Mocha";
-
+      "clangd.path" =
+        "/home/lex/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/19.1.2/clangd_19.1.2/bin/clangd";
     };
   };
 }
