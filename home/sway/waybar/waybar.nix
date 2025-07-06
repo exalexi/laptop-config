@@ -11,7 +11,7 @@
     package = pkgs.waybar;
     systemd = {
       enable = true;
-      target = "sway-session.target";
+      target = "niri-session.target";
     };
   };
 }

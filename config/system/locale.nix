@@ -1,4 +1,4 @@
-{ ... }:
+{ lib, ... }:
 {
   # Set your time zone.
   time.timeZone = "Europe/Berlin";
@@ -20,4 +20,7 @@
 
   # Configure console keymap
   console.keyMap = "de-latin1-nodeadkeys";
+  services.xserver.xkb.layout = "de-latin1";
+  #services.xserver.layout = lib.mkForce "de";
+
 }

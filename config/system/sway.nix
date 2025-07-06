@@ -1,11 +1,11 @@
 { pkgs, ... }:
 {
   # Sway
-  programs.sway = {
-    enable = true;
-    package = pkgs.swayfx;
-    wrapperFeatures.gtk = true;
-  };
+  #programs.sway = {
+  #  enable = true;
+  #  package = pkgs.swayfx;
+  #  wrapperFeatures.gtk = true;
+  #};
   programs.xwayland.enable = true;
   services.dbus.enable = true;
   xdg.portal = {

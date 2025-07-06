@@ -15,7 +15,7 @@
       margin-right = 0;
       reload_style_on_change = true;
       modules-left = [
-        "sway/window"
+        "niri/window"
         "network"
         "user"
         "temperature" # //TODO
@@ -25,7 +25,8 @@
         #"custom/mediaplayer"
       ];
       modules-center = [
-        "sway/workspaces"
+        #"memory#sidescroller"
+        "niri/workspaces"
       ];
       modules-right = [
         #"network"

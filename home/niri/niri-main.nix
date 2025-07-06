@@ -1,8 +1,8 @@
-{ ... }:
+{ niri, pkgs, ... }:
 {
   programs.niri = {
     enable = true;
-  };
+    #package = pkgs.niri-stable;
 
-  home.sessionVariables.NIXOS_OZONE_WL = "1";
+  };
 }

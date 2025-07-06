@@ -76,7 +76,7 @@
             home-manager.users.lex = {
               imports = [
                 ./home/default.nix
-                catppuccin.homeManagerModules.catppuccin
+                catppuccin.homeModules.catppuccin
                 inputs.spicetify-nix.homeManagerModules.default
                 niri.homeModules.niri
               ];

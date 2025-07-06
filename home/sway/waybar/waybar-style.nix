@@ -37,19 +37,19 @@ in
         border-radius: 10px;
         color:${custom.text};
         background: ${custom.transparency};
-        min-width: 50px;
+        min-width: 15px;
         transition: all 0.3s ease-in-out;
     }
 
-    #workspaces button.visible {
+    #workspaces button.active {
         background-color: ${custom.accent};
         color: ${custom.background};
         border-radius: 10px;
-        min-width: 75px;
+        min-width: 30px;
         
         transition: all 0.3s ease-in-out;
     }
-    #workspaces button:hover {
+    #workspaces button:focused {
         background-color: ${custom.accent};
         color: ${custom.background};
         border-radius: 10px;

@@ -31,8 +31,8 @@
       name = "Default";
       settings = {
         "browser.startup.homepage" = "https://start.duckduckgo.com/?q=";
-        "dom.security.https_only_mode" = true;
-        "dom.security.https_only_mode_ever_enabled" = true;
+        # "dom.security.https_only_mode" = true;
+        # "dom.security.https_only_mode_ever_enabled" = true;
         # Privacy settings
         "privacy.donottrackheader.enabled" = true;
         "privacy.trackingprotection.enabled" = true;
@@ -132,6 +132,7 @@
           };
         };
       };
+      extensions.force = true;
     };
   };
 }

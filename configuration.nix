@@ -30,6 +30,8 @@
       "storage"
       "libvirtd"
       "wireshark"
+      "scanner"
+      "lp"
     ];
   };
 

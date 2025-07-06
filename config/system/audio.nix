@@ -7,4 +7,5 @@
     pulse.enable = true;
     wireplumber.enable = true;
   };
+
 }

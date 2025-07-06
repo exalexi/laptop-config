@@ -9,8 +9,11 @@
     ./mediaplayer.nix
     ./memory.nix
     ./network.nix
+    ./niri-window.nix
+    ./niri-workspaces.nix
     ./pulseaudio-slider.nix
     ./pulseaudio.nix
+    ./sidescroller.nix
     ./sway-mode.nix
     ./sway-window.nix
     ./sway-workspaces.nix

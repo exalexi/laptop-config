@@ -6,7 +6,7 @@
     settings = {
       default_session = {
         user = "lex";
-        command = "tuigreet --cmd 'dbus-run-session sway' -t -r --asterisks -g 'Hiya'";
+        command = "tuigreet --cmd 'niri-session' --remember --asterisks -g 'AUTHORIZED PERSONNEL ONLY!!!'";
       };
     };
   };

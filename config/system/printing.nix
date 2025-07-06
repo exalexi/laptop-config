@@ -17,4 +17,6 @@
     defaultShared = true;
     openFirewall = true;
   };
+
+  hardware.sane.enable = true;
 }

@@ -6,6 +6,7 @@
     arandr
     bzip2
     distrobox
+    fuzzel
     git
     greetd.gtkgreet
     greetd.tuigreet
@@ -38,6 +39,7 @@
     wineWowPackages.waylandFull
     wireshark
     wireguard-tools
+    xwayland-satellite
   ];
 }
 #

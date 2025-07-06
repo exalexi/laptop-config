@@ -8,11 +8,11 @@
       catppuccin.catppuccin-vsc-icons
       catppuccin.catppuccin-vsc
       jnoortheen.nix-ide
-      redhat.java
-      vscjava.vscode-gradle
-      vscjava.vscode-java-debug
+      #redhat.java
+      #vscjava.vscode-gradle
+      #vscjava.vscode-java-debug
       ms-vscode-remote.remote-ssh
-      myriad-dreamin.tinymist
+      #myriad-dreamin.tinymist
       tomoki1207.pdf
       ms-python.python
 
@@ -27,13 +27,14 @@
       #raspberry-pi.raspberry-pi-pico
     ];
     profiles.default.userSettings = {
-      "[typst]" = {
-        "editor.wordSeperators" = "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?";
-      };
+      #"[typst]" = {
+      #  "editor.wordSeperators" = "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?";
+      #};
+
       "editor.formatOnSave" = true;
       "files.autoSave" = "onFocusChange";
       "git.enableSmartCommit" = true;
-      "java.jdt.ls.java.home" = "${pkgs.jdk21}";
+      #"java.jdt.ls.java.home" = "${pkgs.jdk21}";
       "nix.enableLanguageServer" = true;
       "nix.formatterPath" = "nixfmt";
       "nix.serverPath" = "nil";
@@ -46,11 +47,12 @@
           };
         };
       };
-      "redhat.telemetry.enabled" = false;
+      #"redhat.telemetry.enabled" = false;
       "window.menuBarVisibility" = "toggle";
       "workbench.colorTheme" = "Catppuccin Mocha";
       "clangd.path" =
         "/home/lex/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/19.1.2/clangd_19.1.2/bin/clangd";
+      "json.format.enable" = false;
     };
   };
 }

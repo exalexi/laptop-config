@@ -13,6 +13,7 @@
     ./locale.nix
     ./mount.nix
     ./networking.nix
+    #./niri.nix
     ./nm-applet.nix
     ./polkit.nix
     ./printing.nix
