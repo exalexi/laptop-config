@@ -8,6 +8,14 @@
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Input
 environment { DISPLAY ":0"; }
 
+//                         ____
+// \\              // ||  |  _ \
+//  \\    //\\    //  ||  | |_| |
+//   \\  //  \\  //   ||  |____/
+//    \\//    \\//    ||  ||
+
+
+
 input {
     keyboard {
         xkb {
@@ -64,6 +72,15 @@ output "eDP-1" {
     transform "normal"
     position x=0 y=0
 }
+
+
+output "HDMI-A-1" {
+    mode "1920x1080@60.001"
+    scale 1
+    transform "normal"
+    position x=1920 y=0
+}
+
 
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
@@ -351,10 +368,11 @@ binds {
     Mod+Shift+K    { move-window-up-or-to-workspace-up; }
     Mod+Shift+Period { move-column-right; }
 
-    
-    
-    
-    
+    // Transform the currently focused screen
+    Mod+Ctrl+Shift+Left  { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform 270" ; }
+    Mod+Ctrl+Shift+Down  { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform normal" ; }
+    Mod+Ctrl+Shift+Up    { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform 180" ; }
+    Mod+Ctrl+Shift+Right { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform 90" ; }
 
     // The following binds move the focused window in and out of a column.
     // If the window is alone, they will consume it into the nearby column to the side.
