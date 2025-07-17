@@ -41,6 +41,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    lsfg-flake.url = "github:pabloaul/lsfg-vk-flake/main";
+    lsfg-flake.inputs.nixpkgs.follows = "nixpkgs";
+
+
   };
 
   outputs =
@@ -53,6 +57,7 @@
       spicetify-nix,
       agenix,
       niri,
+      lsfg-flake,
       ...
     }@inputs:
     {
@@ -71,6 +76,8 @@
           home-manager.nixosModules.home-manager
 
           agenix.nixosModules.default
+
+          lsfg-flake.nixosModules.default
 
           {
             home-manager.users.lex = {
