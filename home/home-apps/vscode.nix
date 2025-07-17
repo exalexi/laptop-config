@@ -31,27 +31,37 @@
       #  "editor.wordSeperators" = "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?";
       #};
 
-      "editor.formatOnSave" = true;
+      #"editor.formatOnSave" = true;
       "files.autoSave" = "onFocusChange";
       "git.enableSmartCommit" = true;
       #"java.jdt.ls.java.home" = "${pkgs.jdk21}";
+      #"nix.enableLanguageServer" = true;
+      #"nix.formatterPath" = "nixfmt";
+      #"nix.serverPath" = "nil";
+      #"nix.serverSettings" = {
+      #  "nil" = {
+      #    "formatting" = {
+      #      "command" = [
+      #        "nixfmt"
+      #      ];
+      #    };
+      #  };
+      #};
+      #"redhat.telemetry.enabled" = false;
+
       "nix.enableLanguageServer" = true;
-      "nix.formatterPath" = "nixfmt";
-      "nix.serverPath" = "nil";
+      "nix.serverPath" = "nixd";
       "nix.serverSettings" = {
-        "nil" = {
+        "nixd" = {
           "formatting" = {
-            "command" = [
-              "nixfmt"
-            ];
+            "command" = [ "nixfmt" ];
           };
         };
       };
-      #"redhat.telemetry.enabled" = false;
+
+      "nix.formatterPath" = "nixfmt";
       "window.menuBarVisibility" = "toggle";
       "workbench.colorTheme" = "Catppuccin Mocha";
-      "clangd.path" =
-        "/home/lex/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/19.1.2/clangd_19.1.2/bin/clangd";
       "json.format.enable" = false;
     };
   };

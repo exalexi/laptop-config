@@ -21,6 +21,7 @@
     neofetch
     networkmanagerapplet
     nil
+    nixd
     nixfmt-rfc-style
     ntfs3g
     parsec-bin
