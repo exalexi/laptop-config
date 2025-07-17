@@ -11,8 +11,10 @@
     ./keyring.nix
     ./laptop.nix
     ./locale.nix
+    ./lsfg.nix
     ./mount.nix
     ./networking.nix
+    ./nh.nix
     #./niri.nix
     ./nm-applet.nix
     ./polkit.nix
