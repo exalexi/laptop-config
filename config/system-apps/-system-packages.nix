@@ -17,6 +17,7 @@
     lutris-free
     magic-wormhole-rs
     mako
+    meow # IMPORTANT!!
     micro
     neofetch
     networkmanagerapplet
