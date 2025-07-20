@@ -41,9 +41,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    lsfg-flake.url = "github:pabloaul/lsfg-vk-flake/main";
-    lsfg-flake.inputs.nixpkgs.follows = "nixpkgs";
-
+    lsfg-flake = {
+      url = "github:pabloaul/lsfg-vk-flake/main";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
   };
 
