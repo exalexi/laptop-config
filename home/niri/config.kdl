@@ -6,7 +6,10 @@
 // Input device configuration.
 // Find the full list of options on the wiki:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Input
-environment { DISPLAY ":0"; }
+environment { 
+    DISPLAY ":0"; 
+    ELECTRON_OZONE_PLATFORM_HINT "auto";
+}
 
 //                         ____
 // \\              // ||  |  _ \
@@ -24,7 +27,7 @@ input {
             variant "nodeadkeys"
         }
         repeat-delay 250
-        repeat-rate 50
+        repeat-rate 100
     }
     
     touchpad {
