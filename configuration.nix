@@ -48,6 +48,8 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  boot.binfmt.emulatedSystems = [ "aarch64-linux" ];
+
   # Enable flakes
   nix.settings.experimental-features = [
     "nix-command"
