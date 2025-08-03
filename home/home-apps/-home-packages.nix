@@ -7,6 +7,7 @@
     element-desktop
     file
     file-roller
+    #firefox
     fish
     freecad
     gimp

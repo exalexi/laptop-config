@@ -13,7 +13,7 @@
     ./gtk.nix
     ./rofi.nix
     ./spicetify.nix
-    ./vscode.nix
+    #./vscode.nix
     ./zsh.nix
   ];
 }

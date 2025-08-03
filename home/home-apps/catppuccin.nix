@@ -12,5 +12,6 @@
 
     # 25.05 broke it
     mako.enable = false;
+    firefox.enable = false;
   };
 }

@@ -30,13 +30,16 @@
     pavucontrol
     polkit
     pulseaudio
+    signal-desktop
     sshfs
+    space-cadet-pinball
     system-config-printer
     typst
     udiskie
     udisks
     ungoogled-chromium
     usbutils
+    vscode-fhs
     wget
     wineWowPackages.waylandFull
     wireshark
