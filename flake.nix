@@ -19,7 +19,7 @@
 
     # Catppuccin
     catppuccin = {
-      url = "github:catppuccin/nix";
+      url = "github:catppuccin/nix/f518f96a60aceda4cd487437b25eaa48d0f1b97d";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
