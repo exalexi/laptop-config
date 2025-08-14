@@ -11,6 +11,7 @@
     greetd.gtkgreet
     greetd.tuigreet
     greetd.wlgreet
+    imhex
     jdk21
     libnotify
     lshw
@@ -33,12 +34,14 @@
     signal-desktop
     sshfs
     space-cadet-pinball
+    swww
     system-config-printer
     typst
     udiskie
     udisks
     ungoogled-chromium
     usbutils
+    vcv-rack
     vscode-fhs
     wget
     wineWowPackages.waylandFull

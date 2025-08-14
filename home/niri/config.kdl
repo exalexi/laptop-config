@@ -23,8 +23,8 @@ input {
     
     keyboard {
         xkb {
-            layout "de"
-            variant "nodeadkeys"
+            //layout "en"
+            //variant "nodeadkeys"
         }
         repeat-delay 250
         repeat-rate 100
@@ -126,6 +126,8 @@ layout {
 spawn-at-startup "waybar"
 spawn-at-startup "xwayland-satellite"
 spawn-at-startup "nm-applet"
+spawn-at-startup "swww-daemon"
+
 
 prefer-no-csd
 
@@ -185,10 +187,10 @@ binds {
     Mod+Shift+Up     { move-window-up-or-to-workspace-up; }
     Mod+Shift+Right  { move-column-right; }
 
-    Mod+Shift+M      { move-column-left; }
-    Mod+Shift+Comma  { move-window-down-or-to-workspace-down; }
-    Mod+Shift+K      { move-window-up-or-to-workspace-up; }
-    Mod+Shift+Period { move-column-right; }
+    //Mod+Shift+M      { move-column-left; }
+    //Mod+Shift+Comma  { move-window-down-or-to-workspace-down; }
+    //Mod+Shift+K      { move-window-up-or-to-workspace-up; }
+    //Mod+Shift+Period { move-column-right; }
 
     // Transform the currently focused screen
     Mod+Ctrl+Shift+Left   { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform 270" ; }
@@ -196,10 +198,10 @@ binds {
     Mod+Ctrl+Shift+Up     { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform 180" ; }
     Mod+Ctrl+Shift+Right  { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform 90" ; }
 
-    Mod+Ctrl+Shift+M      { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform 270" ; }
-    Mod+Ctrl+Shift+Comma  { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform normal" ; }
-    Mod+Ctrl+Shift+K      { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform 180" ; }
-    Mod+Ctrl+Shift+Period { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform 90" ; }
+    //Mod+Ctrl+Shift+M      { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform 270" ; }
+    //Mod+Ctrl+Shift+Comma  { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform normal" ; }
+    //Mod+Ctrl+Shift+K      { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform 180" ; }
+    //Mod+Ctrl+Shift+Period { spawn "sh" "-c" "niri msg output `niri msg focused-output | grep Output | grep -Po \"(?<=\\().*?(?=\\))\" | tail -1` transform 90" ; }
 
 
     // The following binds move the focused window in and out of a column.
@@ -366,4 +368,6 @@ binds {
     Mod+Ctrl+Shift+T { spawn "thunderbird"; }
     
     Mod+Ctrl+Shift+L { spawn "swaylock"; }
+    Mod+Space  hotkey-overlay-title="Toggle between de/en keyboards" {  spawn "sh" "-c"; }
+
 }
