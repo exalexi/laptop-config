@@ -4,8 +4,13 @@
     angryipscanner
     ani-cli
     arandr
+    arduino
+    arduino-cli
+    arduino-ide
     bzip2
+    dig
     distrobox
+    fritzing
     fuzzel
     git
     greetd.gtkgreet
@@ -20,6 +25,8 @@
     mako
     meow # IMPORTANT!!
     micro
+    mtr
+    mumble
     neofetch
     networkmanagerapplet
     nil
@@ -44,6 +51,7 @@
     vcv-rack
     vscode-fhs
     wget
+    whois
     wineWowPackages.waylandFull
     wireshark
     wireguard-tools
