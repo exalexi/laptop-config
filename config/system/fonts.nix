@@ -72,5 +72,6 @@
     nerd-fonts.ubuntu-sans
     nerd-fonts.victor-mono
     nerd-fonts.zed-mono
+    ubuntu-sans
   ];
 }
