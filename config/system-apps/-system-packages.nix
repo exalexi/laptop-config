@@ -17,6 +17,7 @@
     greetd.tuigreet
     greetd.wlgreet
     imhex
+    labwc
     jdk21
     libnotify
     lshw
