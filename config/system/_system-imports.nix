@@ -17,12 +17,14 @@
     ./nh.nix
     #./niri.nix
     ./nm-applet.nix
+    ./nvidia.nix
     ./polkit.nix
     ./printing.nix
     ./retroarch.nix
     ./ssh.nix
     ./sway.nix
     #./tailscale.nix
+    ./tlp.nix
     ./video.nix
     ./vms.nix
     ./vnstat.nix
